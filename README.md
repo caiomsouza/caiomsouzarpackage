@@ -7,13 +7,13 @@ Crea un paquete de R con dos o tres funciones tontas. Una de ellas tiene que lla
 Para puntuar en este ejercicio, me tienes que pasar una versión del siguiente código,
 
 ```
-library(devtools) <BR>
-install_github("url del paquete") <BR>
-library("nombre del paquete") <BR>
-suma.dos.numeros(2,2) <BR>
-suma.dos.numeros(2.5) <BR>
-￼?suma.dos.numeros<BR>
-remove.packages("nombre del paquete")<BR><BR>
+library(devtools) 
+install_github("url del paquete")
+library("nombre del paquete")
+suma.dos.numeros(2,2)
+suma.dos.numeros(2.5)
+￼?suma.dos.numeros
+remove.packages("nombre del paquete")
 ```
 
 que instale tu paquete, ejecute lo que me interesa y lo elimine después.<BR><BR>
@@ -41,11 +41,9 @@ library("caiomsouzarpackage")
 
 # Try suma.dos.numeros
 suma.dos.numeros(2,2) 
-
-# Bug to fix - suma.dos.numeros(2.5)
-#Error in suma.dos.numeros(2.5) : argument "b" is missing, with no default
-
+suma.dos.numeros(2,8) 
 suma.dos.numeros(2.5)
+suma.dos.numeros(2.8)
 
 
 # Remove caiomsouzarpackage
